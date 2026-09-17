@@ -1,4 +1,4 @@
-# add-shared-skill.ps1
+﻿# add-shared-skill.ps1
 # 用法： powershell -ExecutionPolicy Bypass -File add-shared-skill.ps1 <技能名>
 # 作用：把中央目录里的一个技能，链接到本机 Claude Code / Codex / WorkBuddy 的技能目录。
 #       豆包无需处理：它的 .user_skills 已整体指向中央 skills 目录，天然可见。
