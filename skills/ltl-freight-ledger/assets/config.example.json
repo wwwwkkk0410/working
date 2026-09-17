@@ -1,0 +1,12 @@
+{
+  "_说明": "把本文件复制成 skill 根目录下的 config.json，改成你自己的路径即可。",
+  "_优先级": "命令行参数 > 环境变量(LTL_LEDGER/LTL_BACKUP_DIR/LTL_OUTDIR/LTL_SINCE) > 本文件 > ~/.workbuddy/secrets/ltl-sites.json",
+  "_提示": "config.json 属于本机私有配置，不要提交到 git、也不要随 skill 分享给别人（已在 .gitignore 里排除）。",
+
+  "ledger": "D:/路径/运费台账.xlsx",
+
+  "backup_dir": "D:/路径/backups",
+  "outdir": "D:/路径/output",
+
+  "default_since": "2026-08-01"
+}
